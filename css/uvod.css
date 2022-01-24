@@ -1,0 +1,37 @@
+header {
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(img/matrix.jfif);
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(0, 0, 0);
+}
+
+.flex-container>div {
+    background-color: rgba(0, 255, 13, 0.76);
+    width: 30.15%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
